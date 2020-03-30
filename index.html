@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/bootstrap.css">
-  <link rel="stylesheet" href="/css/styles.css"> 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Boston Film Club</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/videos.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/styles.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
 
-  
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" >
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <title>Boston Film Club</title>
-</head>
+ 
 <body>
     <!---navigation-->
   <div class="bg-warning">
@@ -30,7 +36,7 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Films</a>
+            <a class="nav-link" href="">Films</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Boston City News</a>
@@ -45,111 +51,359 @@
     </div>
     </div>
     <!-------videobackground-->
-    <div class="video-container">
-      <div class="section">
-          <video autoplay loop muted>
-              <source src="Videos/trailer.mp4" type="video/mp4">
-          </video>
+    <header>
+      <div class="overlay">
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"></video>
+        <source src= images/French_dispatch_theater_background.jpg type="video/mp4"></video>
+ 
+          <!---Card row starts here-->
+          <div class="row card-height justify-content-center">
+         
+          <!---First card-->
+          <div class="col-sm-2 mr-5">
+            <div class="card xtra-card">
+              <img class="card-img-top xtra-image" src="https://media.pathe.nl/thumb/360x508/gfx_content/posterhr/1917_ps_1_jpg_sd-high_Copyright-2019-WW-Entertainment-2.jpeg" alt="1917" class="card-img-top" >
+              <div class="card-body">
+              <h6 class="card-title">1917</h6>
+              <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Book here</button>
+              </div>
+            </div>
+          </div>
+         
+          <!-- second card -->
+          <div class="col-sm-2 mr-5 col-xs-2">
+            <div class="card xtra-card" >
+            <img class="card-img-top xtra-image" src="https://media.pathe.nl/sticker/pac/gfx_content/other/api/filmdepot/v1/movie/download/32666_121145_ps_sd-high.jpg" alt="1917" class="card-img-top">
+              <div class="card-body">
+                <h6 class="card-title">1917</h6>
+                <button type="button" class="btn btn-primary btn-sm">Book here</button>
+              </div>
+            </div> 
+          </div>
+
+         <!-- third card -->
+         <div class="col-sm-2 mr-5 col-xs-3">
+          <div class="card xtra-card" >
+           <img class="card-img-top xtra-image" src="https://media.pathe.nl/thumb/360x508/gfx_content/other/api/filmdepot/v1/movie/download/32832_117475_ps_sd-high.jpg" alt="1917" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">1917</h6>
+              <button type="button" class="btn btn-primary btn-sm">Book here</button>
+            </div>
+          </div> 
+        </div>
+        
+        <!-- fourth card -->
+        <div class="col-sm-2 mr-5 col-xs-3">
+          <div class="card xtra-card" >
+            <img class="card-img-top xtra-image" src="https://media.pathe.nl/thumb/360x508/gfx_content/other/api/filmdepot/v1/movie/download/32970_117054_ps_sd-high.jpg" alt="1917" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">1917</h6>
+              <button type="button" class="btn btn-primary btn-sm">Book here</button>
+            </div>
+          </div> 
+        </div>
       </div>
-    <div class="kaarten">
-    <div class="row mt-5">
-     <div class="col-sm-2 mr-5">
-       <div class="card" style="width:200px">
-         <img class="card-img-top" src="https://media.pathe.nl/thumb/360x508/gfx_content/posterhr/1917_ps_1_jpg_sd-high_Copyright-2019-WW-Entertainment-2.jpeg" alt="1917" class="card-img-top">
-         <div class="card-body">
-           <h6 class="card-title">1917</h6>
-           <button type="button" class="btn btn-primary">Book here</button>
-         </div>
-     </div> 
       </div>
-       <div class="col-sm-2 mr-5">
-       <div class="card" style="width:200px">
-         <img class="card-img-top" src="https://media.pathe.nl/sticker/pac/gfx_content/other/api/filmdepot/v1/movie/download/32666_121145_ps_sd-high.jpg" alt="1917" class="card-img-top">
-         <div class="card-body">
-           <h6 class="card-title">Dark Waters</h6>
-           <button type="button" class="btn btn-primary">Book here</button>
-         </div>
-     </div>
-      </div>
-       <div class="col-sm-2 mr-5">
-       <div class="card" style="width:200px">
-         <img class="card-img-top" src="https://media.pathe.nl/thumb/360x508/gfx_content/other/api/filmdepot/v1/movie/download/32832_117475_ps_sd-high.jpg" alt="1917" class="card-img-top">
-         <div class="card-body">
-           <h6 class="card-title">Parasite</h6>
-           <button type="button" class="btn btn-primary">Book here</button>
-         </div>
-     </div>
-      </div>
-       <div class="col-sm-2 mr-5">
-       <div class="card" style="width:200px">
-         <img class="card-img-top" src="https://media.pathe.nl/thumb/360x508/gfx_content/other/api/filmdepot/v1/movie/download/32970_117054_ps_sd-high.jpg" alt="1917" class="card-img-top">
-         <div class="card-body">
-           <h6 class="card-title">Jojo Rabbit</h6>
-           <button type="button" class="btn btn-primary">Book here</button>
-         </div>
-     </div>
-      </div>
-    </div>
-    </div>
-</div>
-</div>
-  <div class="row">
-    <p>DAY SELECTION<p>
-    <div class="col">
-    </div>
-    <div class="col">
-    </div>
-    <div class="col">
-    </div>          
-  </div>
-  <!------MOVIE CARDS-->
+   
+      <!-- card row end here -->
+    </header>
+    <br>
+    <br>
+<!------INFO & MEDIA SECTION -->   
 <div class="container">
-    <div class="row">
-    <b-card no-body>
-        <b-tabs pills card>
-            <!---DAY 1-->
-            <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src="images/FRenchDispatch.jpeg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Film 1</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                  <div class="card-footer">
-                    <button type="button" class="btn btn-primary">Book here</button>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="images/Grand Budapest Hotel .jpeg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Film 2</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                  </div>
-                  <div class="card-footer">
-                    <button type="button" class="btn btn-primary">Book here</button>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top;" src="" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Film 3</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  </div>
-                  <div class="card-footer">
-                    <button type="button" class="btn btn-primary">Book here</button>
+  <div class="row">
+    <!----JumboTron -->
+    <div class="col-sm">
+      <div class="jumbotron">
+        <h1>Boston Film Festival </h1>
+        <p>Boston Film Festival (BFF), is an International, competitive festival. BFF's mission is to provide a public forum in Boston in order to advance public interest in films and the independent production of films.<br>
+           To draw worldwide attention to Boston as a center for cinema. To encourage the rights of all Boston residents to access and experience the power of independent filmmaking, and to promote artistic excellence and the creative freedom of artists without censure. BFF, inc. is a not-for-profit organization.</p>
+      </div>
+    </div>
+    <!----Twitter--> 
+    <div class="col-sm">
+        <a class="twitter-timeline" data-height="500" data-theme="light" data-link-color="#E81C4F" href="https://twitter.com/iffboston?lang=en">Latest Updates</a>
+    </div>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div>
+
+
+<!-------DAY MOVIE SELECTION---> 
+<div class="container mt-3">
+<h2>Movie selection per Day</h2>
+<br>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <il class="nav-item">
+        <a class="nav-link active" id="day1-tab" data-toggle="tab"  href="#day1" role="tab" aria-controls="day1" aria-selected="true">DAY 1</a>
+      </il>
+      <il class="nav-item">
+        <a class="nav-link" id="day2-tab" data-toggle="tab" href="#day2" role="tab" aria-controls="day2" aria-selected="false">DAY 2</a>
+      </il>
+      <il class="nav-item">
+        <a class="nav-link" id="day3-tab" data-toggle="tab" href="#day3" role="tab" aria-controls="day3" aria-selected="false">DAY 3</a>
+      </il>
+    </ul>
+
+
+   <!---DAY 1-->
+   <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="day1-tab">
+        <h3>DAY 1</h3>
+        <div class="card-deck">
+          <!---Film 1-->
+          <div class="card">
+            <img class="card-img-top" src="images/FRenchDispatch.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Film 1</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button></p>
+            </div>
+            <div class="card-footer"> 
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book here</button> 
+              <!---Film 1 Modal-->           
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="card mb-3">
+                      <img class="card-img-top" src="images/French_dispatch_people_background.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">The French Dispatch</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            <b-tab title="Tab 2"><b-card-text>Day 2</b-card-text></b-tab>
-            <b-tab title="Tab 3"><b-card-text>Day 3</b-card-text></b-tab>
-        </b-tabs>
-    </b-card>
+            </div>
+          </div>
+          <!---Film 2-->
+          <div class="card">
+            <img class="card-img-top" src="images/Grand Budapest Hotel .jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Film 2</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button></p>
+            </div>
+            <div class="card-footer"> 
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book here</button> 
+            <!---Film 2 Modal-->           
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="images/French_dispatch_people_background.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">The French Dispatch</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!---Film 3-->
+         <div class="card">
+          <img class="card-img-top" src="images/FRenchDispatch.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Film 3</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button></p>
+          </div>
+          <div class="card-footer"> 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book here</button> 
+          <!---Film 3 Modal-->           
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="card mb-3">
+                  <img class="card-img-top" src="images/French_dispatch_people_background.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">The French Dispatch</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 </div>
-</div>   
+</div>
+</div>
+   <!-----DAY 2--> 
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="day2-tab">
+      <h3>DAY 2</h3>
+      <div class="card-deck">
+        <!---Film 4-->
+        <div class="card">
+          <img class="card-img-top" src="images/FRenchDispatch.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Film 1</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button></p>
+          </div>
+          <div class="card-footer"> 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book here</button> 
+            <!---Film 4 Modal-->           
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="images/French_dispatch_people_background.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">The French Dispatch</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---Film 5-->
+        <div class="card">
+          <img class="card-img-top" src="images/Grand Budapest Hotel .jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Film 2</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button></p>
+          </div>
+          <div class="card-footer"> 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book here</button> 
+          <!---Film 5 Modal-->           
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="card mb-3">
+                  <img class="card-img-top" src="images/French_dispatch_people_background.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">The French Dispatch</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!---Film 6-->
+       <div class="card">
+        <img class="card-img-top" src="images/FRenchDispatch.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Film 3</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button></p>
+        </div>
+        <div class="card-footer"> 
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book here</button> 
+        <!---Film 6 Modal-->           
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="card mb-3">
+                <img class="card-img-top" src="images/French_dispatch_people_background.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">The French Dispatch</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+
+   <!-----DAY 3-->  
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="day3-tab">
+      <h3>DAY 3</h3>
+      <div class="card-deck">
+        <!---Film 7-->
+        <div class="card">
+          <img class="card-img-top" src="images/FRenchDispatch.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Film 7</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button></p>
+          </div>
+          <div class="card-footer"> 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book here</button> 
+            <!---Film 7 Modal-->           
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="images/French_dispatch_people_background.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">The French Dispatch</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!---Film 8-->
+        <div class="card">
+          <img class="card-img-top" src="images/Grand Budapest Hotel .jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Film 8</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button></p>
+          </div>
+          <div class="card-footer"> 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book here</button> 
+          <!---Film 8 Modal-->           
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="card mb-3">
+                  <img class="card-img-top" src="images/French_dispatch_people_background.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">The French Dispatch</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+       <!---Film 9-->
+       <div class="card">
+        <img class="card-img-top" src="images/FRenchDispatch.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Film 3</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button></p>
+        </div>
+        <div class="card-footer"> 
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book here</button> 
+        <!---Film 9 Modal-->           
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="card mb-3">
+                <img class="card-img-top" src="images/French_dispatch_people_background.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">The French Dispatch</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+    
+
+<br>
+<br>              
 <!----FOOTER-->  
-<footer class="page-footer font-small unique-color-dark">
-    <div style="background-color: rgb(252, 206, 5);">
-        <div class="container">
+<footer class=" page-footer font-small unique-color-dark">
+  <div style="background-color: rgb(255, 187, 0);">
+    <div class="container">
+        
             <div class="row py-4 d-flex align-items-center">
                 <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
                     <h6 class="mb-0">Get connected with us on social networks!</h6>
@@ -176,7 +430,7 @@
                 </div>
             </div>
         </div>
-    </div>
+      
     <div class="container text-center text-md-left mt-5">
         <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
@@ -232,19 +486,66 @@
       </div>
     </div>
 </div>
-<div style="background-color: rgb(252, 206, 5);">
 <div class="footer-copyright text-center py-3">© 2020 Copyright:
     <a href="https://mdbootstrap.com/"> BOSTON FILM FESTIVAL</a>
   </div>
 </div>
 </footer>
 
- 
+<!----Modal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModallongtitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="model-content">
+      <div class="model-header">
+        
+         <span aria-hidden="true">&times;</span>
+       </button>
+      </div>
+      <div class="modal-body mx-3">
+       <div class="col-sm">
+         <h3>Make your film reservation here</h3>
+         <form>
+         <div class="md-form mb-5">
+             <label for="exampleformcontrolinput1">First Name</label>
+             <input type="email" class="form-control" id="exampleformcontrolinput1" placeholder="First">
+         </div>
+         <div class="md-form mb-5">
+           <label for="exampleformcontrolinput1">Surname</label>
+           <input type="email" class="form-control" id="exampleformcontrolinput1" placeholder="Surname">
+       </div>
+         <div class="md-form mb-4">
+             <label for="exampleformcontrolinput1">Email address</label>
+             <input type="email" class="form-control" id="exampleformcontrolinput1" placeholder="name@example.com">
+         </div>
+         <div class="md-form mb-4">
+           <label for="exampleformcontrolselect1">Select film</label>
+           <select class="form-control" id="exampleformcontrolselect1">
+             <option>film 1</option>
+             <option>film 2</option>
+             <option>film 3</option>
+             <option>film 4</option>
+             <option>film 5</option>
+             <option>film 6</option>
+             <option>film 7</option>
+             <option>film 8</option>
+             <option>film 9</option>
+           </select>
+         </div>
+         <button type="submit" class="btn btn-primary">Submit</button>
+         </form>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    
+  </body>
 </html>
 
